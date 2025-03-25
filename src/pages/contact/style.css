@@ -43,3 +43,27 @@ button.btn.ac_btn:hover {
         transform: translateX(100%);
     }
 }
+
+/* Add these new styles */
+.contact-info {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.contact-info a {
+  color: var(--text-color);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--text-color);
+  transition: all 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: var(--text-color-3);
+  border-bottom: 1px solid var(--text-color-3);
+}
+
+.contact-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}

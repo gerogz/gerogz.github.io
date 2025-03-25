@@ -1,0 +1,83 @@
+.resume-container {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.resume-header {
+  margin-bottom: 2rem;
+}
+
+.resume-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.resume-contact {
+  font-size: 1rem;
+}
+
+.resume-section {
+  margin-bottom: 2rem;
+}
+
+.resume-section-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-bottom: 2px solid var(--secondary-color);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.resume-education h4,
+.resume-experience h4,
+.resume-project h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.resume-date {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.resume-bullets {
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.resume-bullets li {
+  margin-bottom: 0.5rem;
+  list-style-type: disc;
+}
+
+.resume-skills p {
+  margin-bottom: 0.5rem;
+}
+
+.resume-project {
+  padding-bottom: 1rem;
+}
+
+@media print {
+  .resume-container {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  
+  .resume-name {
+    font-size: 1.8rem;
+  }
+  
+  .resume-section-title {
+    font-size: 1.2rem;
+  }
+  
+  .resume-bullets li {
+    margin-bottom: 0.3rem;
+  }
+}

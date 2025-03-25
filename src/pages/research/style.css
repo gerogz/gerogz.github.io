@@ -1,0 +1,51 @@
+.research-content {
+  margin-bottom: 2rem;
+}
+
+.research-item {
+  padding: 1.5rem;
+  border: 1px solid var(--secondary-color);
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.research-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.research-title {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+.research-authors {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.research-venue {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  color: var(--text-color-2);
+}
+
+.research-description {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.research-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--secondary-color);
+  color: var(--text-color);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.research-link:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
